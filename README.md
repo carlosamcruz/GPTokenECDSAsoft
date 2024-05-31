@@ -8,6 +8,7 @@ The following instructions will help you to setup the project from the current r
 
    ```
    Create a new React Project:
+
 	npx create-react-app webgptokon --template typescript
 	cd webgptokon
 	npx scrypt-cli@latest init
@@ -20,35 +21,43 @@ The following instructions will help you to setup the project from the current r
 		npx scrypt-cli@latest init
 
    Delete from node_mudules folders:
+
 	..\node_modules\bsv
 	..\node_modules\scrypt-ts
 	..\node_modules\node-polyfill-webpack-plugin   
 
-   Copy from crack_scrypt_0.1.73 foder (in this repo)   
+   Copy from crack_scrypt_0.1.73 foder (in this repo)
+
 	..\crack_scrypt_0.1.73\bsv
 	..\crack_scrypt_0.1.73\scrypt-ts
 	..\crack_scrypt_0.1.73\node-polyfill-webpack-plugin
 	..\crack_scrypt_0.1.73\filter-obj   
    
    Paste the four folders above into node_modules
+
 	..\node_modules\bsv
 	..\node_modules\scrypt-ts
 	..\node_modules\node-polyfill-webpack-plugin
 	..\node_modules\filter-obj
 
    Delete from projeto folder webgptokon:
+
 	..\webgptokon\scr
 
    Copy folder (in this repo):
+
 	src
 
    Paste it into project folder:
+
 	..\webgptokon\scr   
 
    Compile the Project Contracts:
+
 	npx scrypt-cli@latest compile
 
-   Run it in your pc:   
+   Run it in your pc:
+
 	npm start   
 
    ```
