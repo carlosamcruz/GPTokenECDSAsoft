@@ -7,58 +7,58 @@ This is a general purpose token project a fungible token with 9 functions;
 The following instructions will help you to setup the project from the current repo:
 
    ```
-   Create a new React Project:
+	Create a new React Project:
 
-	npx create-react-app webgptokon --template typescript
-	cd webgptokon
-	npx scrypt-cli@latest init
-
-		***In case its necessary apply the following commands:
-
-		git init
-		git add .
-		git commit -m "Initialize project using Creat React App"
+		npx create-react-app webgptokon --template typescript
+		cd webgptokon
 		npx scrypt-cli@latest init
 
-   Delete from node_mudules folders:
+			***In case its necessary apply the following commands:
 
-	..\node_modules\bsv
-	..\node_modules\scrypt-ts
-	..\node_modules\node-polyfill-webpack-plugin   
+			git init
+			git add .
+			git commit -m "Initialize project using Creat React App"
+			npx scrypt-cli@latest init
 
-   Copy from crack_scrypt_0.1.73 foder (in this repo)
+	Delete from node_mudules folders:
 
-	..\crack_scrypt_0.1.73\bsv
-	..\crack_scrypt_0.1.73\scrypt-ts
-	..\crack_scrypt_0.1.73\node-polyfill-webpack-plugin
-	..\crack_scrypt_0.1.73\filter-obj   
+		..\node_modules\bsv
+		..\node_modules\scrypt-ts
+		..\node_modules\node-polyfill-webpack-plugin   
+
+	Copy from crack_scrypt_0.1.73 foder (in this repo)
+
+		..\crack_scrypt_0.1.73\bsv
+		..\crack_scrypt_0.1.73\scrypt-ts
+		..\crack_scrypt_0.1.73\node-polyfill-webpack-plugin
+		..\crack_scrypt_0.1.73\filter-obj   
    
-   Paste the four folders above into node_modules
+	Paste the four folders above into node_modules
 
-	..\node_modules\bsv
-	..\node_modules\scrypt-ts
-	..\node_modules\node-polyfill-webpack-plugin
-	..\node_modules\filter-obj
+		..\node_modules\bsv
+		..\node_modules\scrypt-ts
+		..\node_modules\node-polyfill-webpack-plugin
+		..\node_modules\filter-obj
 
-   Delete from projeto folder webgptokon:
+	Delete from projeto folder webgptokon:
 
-	..\webgptokon\scr
+		..\webgptokon\scr
 
-   Copy folder (in this repo):
+	Copy folder (in this repo):
 
-	src
+		src
 
-   Paste it into project folder:
+	Paste it into project folder:
 
-	..\webgptokon\scr   
+		..\webgptokon\scr   
 
-   Compile the Project Contracts:
+	Compile the Project Contracts:
 
-	npx scrypt-cli@latest compile
+		npx scrypt-cli@latest compile
 
-   Run it in your pc:
+	Run it in your pc:
 
-	npm start   
+		npm start   
 
    ```
 
